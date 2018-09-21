@@ -1,0 +1,30 @@
+
+insert into Admin
+values
+(
+123461,'platoon commander','major','can see everything','MD. Hasan Mahmud','Sundorban',to_date('3-MAR-2016','DD-MON-YYYY')
+);
+
+insert into Admin
+values
+(
+123462,'platoon commander','major','can see everything','MD. Hasan Mahmud','Khulna',to_date('3-MAR-2016','DD-MON-YYYY')
+);
+
+insert into Admin
+values
+(
+123463,'platoon commander','major','can see everything','MD. Hasan Mahmud','Dhaka',to_date('3-MAR-2016','DD-MON-YYYY')
+);
+
+insert into Admin
+values
+(
+123464,'platoon commander','major','can see everything','MD. Hasan Mahmud','Rajshahi',to_date('3-MAR-2016','DD-MON-YYYY')
+);
+
+insert into Admin
+values
+(
+123465,'platoon commander','major','can see everything','MD. Hasan Mahmud','Shylet',to_date('3-MAR-2016','DD-MON-YYYY')
+);

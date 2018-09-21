@@ -1,0 +1,35 @@
+insert into DISCIPLINE 
+values
+(
+Case_no.NEXTVAL,'two weeks suspension','taking vacation showing false reason','1',to_date('17-jan-1950','DD-MON-YYYY'),to_date('27-Nov-1950','DD-MON-YYYY'),'Maj.Mainul hasan'
+
+
+);
+insert into DISCIPLINE 
+values
+(
+Case_no.NEXTVAL,'two weeks suspension','taking vacation showing false reason','2',to_date('17-feb-1950','DD-MON-YYYY'),to_date('29-Nov-1950','DD-MON-YYYY'),'Maj.Mainul hasan'
+
+
+);
+insert into DISCIPLINE 
+values
+(
+Case_no.NEXTVAL,'two weeks suspension','taking vacation showing false reason','3',to_date('17-mar-1950','DD-MON-YYYY'),to_date('17-Nov-1950','DD-MON-YYYY'),'Maj.Mainul hasan'
+
+
+);
+insert into DISCIPLINE 
+values
+(
+Case_no.NEXTVAL,'two weeks suspension','taking vacation showing false reason','4',to_date('17-apr-1950','DD-MON-YYYY'),to_date('13-Nov-1950','DD-MON-YYYY'),'Maj.Mainul hasan'
+
+
+);
+insert into DISCIPLINE 
+values
+(
+Case_no.NEXTVAL,'two weeks suspension','taking vacation showing false reason','5',to_date('17-may-1950','DD-MON-YYYY'),to_date('15-Nov-1950','DD-MON-YYYY'),'Maj.Mainul hasan'
+
+
+);

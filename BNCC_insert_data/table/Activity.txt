@@ -1,0 +1,12 @@
+
+create table activity
+(
+name_of_activity varchar2(100),
+type varchar2(100),
+place varchar2(100),
+organised_by varchar2(100),
+duration varchar2(100),
+start_date date,
+finish_date varchar2(100),
+CONSTRAINT activity_name_of_activity_pk PRIMARY KEY(name_of_activity)
+);

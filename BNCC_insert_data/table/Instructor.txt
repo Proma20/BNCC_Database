@@ -1,0 +1,11 @@
+Create table Instructor
+(
+Service_No number(30),
+Appointment varchar2(20),
+Qualification varchar2(150),
+Rank varchar2(20),
+Joining_Date date,
+Last_Date date,
+CONSTRAINT Service_no_Instructor_fk FOREIGN KEY (Service_No) REFERENCES Employee (Service_no) ON DELETE CASCADE
+);
+

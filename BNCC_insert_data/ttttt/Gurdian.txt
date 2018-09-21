@@ -1,0 +1,48 @@
+create type addr1 as object
+(
+Village varchar2(30),
+Post_Office varchar2(30),
+Police_station varchar2(30),
+House_No varchar2(10),
+District varchar2(30),
+Division varchar2(30)
+);
+
+CREATE SEQUENCE G_NID
+INCREMENT BY 1
+START WITH 1000000000001
+MAXVALUE   9999999999999
+NOCACHE
+NOCYCLE;
+
+
+CREATE TABLE GUARDIAN
+(
+G_ADDRESS addr1,
+G_NAME VARCHAR2(15)NOT NULL,
+G_NID number(20),
+G_CONTACT_NO number(15)NOT NULL,
+G_RELATION VARCHAR2(15),
+F_NAME VARCHAR2(15),
+F_CONTACT_NO number(15),
+M_NAME VARCHAR2(15),
+M_CONTACT_NO number(15),
+CONSTRAINT   G_NID_GUARDIAN_pk PRIMARY KEY(G_NID)
+);
+
+
+
+
+
+INSERT INTO GUARDIAN
+VALUES
+(addr1('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),'ASEED',G_NID.NEXTVAL,01798742563,'Uncle','EBRAHEEM',987654321,'Maliha',123987654);
+(addr1('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),'NOOR',G_NID.NEXTVAL,01798742563,'Uncle','SALAM',987654321,'MARUM',123987654);
+(addr1('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),'MALIK',G_NID.NEXTVAL,01798742563,'Uncle','NADEEM',987654321,'NABELA',123987654);
+(addr1('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),'ANWAR',G_NID.NEXTVAL,01798742563,'Uncle','SUBHI',987654321,'SAMERA',123987654);
+(addr1('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),'AMEER',G_NID.NEXTVAL,01798742563,'Uncle','SALIM',987654321,'HUDA',123987654);
+
+
+
+
+

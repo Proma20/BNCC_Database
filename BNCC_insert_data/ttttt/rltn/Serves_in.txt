@@ -1,0 +1,12 @@
+create table Serves_in(
+Institute varchar2(30),
+Service_No number(30),
+constraint Institute_serves_in_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint Service_No_serves_in_fk foreign key(Service_No) references Instructor on delete cascade 
+);
+
+
+Insert into Serves_in
+(
+'st.josef',123456
+)

@@ -1,0 +1,127 @@
+INSERET IN TO subject
+
+(name,subject_code,type,duration,syllabus)values
+('Mathmatics ','1 ', ' ,' ',' ');
+('Englishe  ','2 ',' ' ,' ',' ');
+('Bangla ','3 ',' ' ,' ',' ');
+('Physics ','4 ',' ' ,' ',' ');
+('chemistry ','5 ',' ' ,' ',' ');
+
+
+-------------------------------------------
+INSERT INTO salary_grade
+(grade,hisal,lowsal)values 
+('1',25000,23000);
+INSERT INTO salary_grade
+(grade,hisal,lowsal)values ('2', 23000, 22000);
+INSERT INTO salary_grade
+(grade,hisal,lowsal)values ('3',22000, 21000);
+INSERT INTO salary_grade
+(grade,hisal,lowsal)values ('4',21000, 200000);
+INSERT INTO salary_grade
+(grade,hisal,lowsal)values ('5',20000, 18000);
+-----------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+INSERT INTO PRESENT_STATE
+(POST,APPOINMENT,E_MAIL,CONTACT_NO_OFFICE,OFFICE_ADDRESS ,OFFICE_INSTITUTE ,TYPE_OF_PROFESSION ,SERVICE_ID)values
+('KHOLNA','   ','A123@GMAIL.COM','01234567893','DHAKA','BNCC','TEACHER','ID_1');
+INSERT INTO PRESENT_STATE
+(POST,APPOINMENT,E_MAIL,CONTACT_NO_OFFICE,OFFICE_ADDRESS ,OFFICE_INSTITUTE ,TYPE_OF_PROFESSION ,SERVICE_ID)values('DHAKA','   ','B123@GMAIL.COM','01234567893','DHAKA','EBL','manager','ID_2');
+INSERT INTO PRESENT_STATE
+(POST,APPOINMENT,E_MAIL,CONTACT_NO_OFFICE,OFFICE_ADDRESS ,OFFICE_INSTITUTE ,TYPE_OF_PROFESSION ,SERVICE_ID)values('KHuLNA','   ','C123@GMAIL.COM','01234567893','DHAKA','BNCC','PUO','ID_3');
+INSERT INTO PRESENT_STATE
+(POST,APPOINMENT,E_MAIL,CONTACT_NO_OFFICE,OFFICE_ADDRESS ,OFFICE_INSTITUTE ,TYPE_OF_PROFESSION ,SERVICE_ID)values('KHuLNA','   ','D123@GMAIL.COM','01234567893','DHAKA','MIST','LECTURER','ID_4');
+INSERT INTO PRESENT_STATE
+(POST,APPOINMENT,E_MAIL,CONTACT_NO_OFFICE,OFFICE_ADDRESS ,OFFICE_INSTITUTE ,TYPE_OF_PROFESSION ,SERVICE_ID)values('DHAKA','   ','E123@GMAIL.COM','01234567893','DHAKA','KAZI IT','SOFTWERE ENGINEER','ID_5');
+
+---------------------------------------------------------------------------------------
+
+INSERT INTO med_info
+(form_no,blood_grp,weight,height,chest_size,eye_sight)VALUES
+('M01','A+ve',58,170.80,'Normal','0.0L 0.0R');
+INSERT INTO med_info
+(form_no,blood_grp,weight,height,chest_size,eye_sight)VALUES('M02','B+ve',60,172.12,'Extended','0.05L 0.07R');
+INSERT INTO med_info
+(form_no,blood_grp,weight,height,chest_size,eye_sight)VALUES('M03','AB-ve',62,175.12,'Extended','0.25L 0.25R');
+INSERT INTO med_info
+(form_no,blood_grp,weight,height,chest_size,eye_sight)VALUES('M04','O-ve',65,170.80,'normal','1.25L 0.25R');
+INSERT INTO med_info
+(form_no,blood_grp,weight,height,chest_size,eye_sight)VALUES('M05','O+ve',58,172.80,'normal','2.25L 3.00R');
+---------------------------------------------------------
+//---------------------------------------
+insert into institutions
+(student_id,class ,dept,ins_name ,Academic_year)values
+(11,'9','Science','Government Boys School',2005);
+insert into institutions
+(student_id,class ,dept,ins_name ,Academic_year)values(134501,'1st year','Statistics','Rajshahi University',2009);
+insert into institutions
+(student_id,class ,dept,ins_name ,Academic_year)values(201514009,'2nd semester','Geology','Dhaka University',2010);
+insert into institutions
+(student_id,class ,dept,ins_name ,Academic_year)values(13,'12','Science','Degree College',2014);
+insert into institutions
+(student_id,class ,dept,ins_name ,Academic_year)Values(01,'7',' ','Government Model School',2013);
+//-----------------------------------------------------------------
+
+
+INSERT INTO GUARDIAN 
+   (	G_ADDRESS,	G_NAME, G_NID,G_CONTACT_NO,G_RELATION,F_NAME,F_CONTACT_NO,M_NAME, M_CONTACT_NO )VALUES
+('DHAKA','ASEED','123456789123','01798763432','FATHER','ASEED','01789765432','MUNIRA','16789122365');
+INSERT INTO GUARDIAN 
+   (	G_ADDRESS,	G_NAME, G_NID,G_CONTACT_NO,G_RELATION,F_NAME,F_CONTACT_NO,M_NAME, M_CONTACT_NO )VALUES
+('DHAKA','HAMID','123454589123','01798734532','BROTHER','SAEED','01798895432','ASMA','16789123765');
+INSERT INTO GUARDIAN 
+   (	G_ADDRESS,	G_NAME, G_NID,G_CONTACT_NO,G_RELATION,F_NAME,F_CONTACT_NO,M_NAME, M_CONTACT_NO )VALUES
+('DHAKA','ASKAR','1234564589123','01678765432','UNCLE','MUHIB','01798789432','ANIKA','16789234765');
+INSERT INTO GUARDIAN 
+   (	G_ADDRESS,	G_NAME, G_NID,G_CONTACT_NO,G_RELATION,F_NAME,F_CONTACT_NO,M_NAME, M_CONTACT_NO )VALUES
+('DHAKA','KAMAL','123456789453','01798725432','FATHER','KAMAL','123456789453','SAYMA','16723124765');
+
+
+
+----------------------------------------------------------------------
+INSERT INTO EQIPMENT 
+(ITEM_NAME ,ITEM_AMOUNT ,ITEM_CODE,ITEM_ISSUED BY ,ITEM_OFFICE ,ITEM_TYPE )VALUES
+('PC  ',' 100  ',' 000000000025  ','SCHOOL     ','    ',' SMART DEVICE ');
+('PC  ',' 100  ',' 000000000025  ','SCHOOL     ','    ',' SMART DEVICE ');
+('PC  ',' 100  ',' 000000000025  ','SCHOOL     ','    ',' SMART DEVICE ');
+('PC  ',' 100  ',' 000000000025  ','SCHOOL     ','    ',' SMART DEVICE ');
+('PC  ',' 100  ',' 000000000025  ','SCHOOL     ','    ',' SMART DEVICE ');
+--------------------------------------------------------
+----------------------------------------------------------------------
+insert into DISCIPLINE 
+(Case_No, Punishment, Cause, Penal_Code, Date_Of_Offence, Date_Of_Punishment, Verdict_By)VALUES
+('1','RUNNING','SLEEPING','1010',TO_DATE('1_JAN_2002','DD_MON_YYYY'),TO_DATE('15_JAN_2001','DD_MON_YYYY'),'  ');
+('2','ROLLING','SLEEPING','1010',TO_DATE('1_JAN_2002','DD_MON_YYYY'),TO_DATE('15_JAN_2001','DD_MON_YYYY'),'  ');
+('3','RUNNING','SLEEPING','1010',TO_DATE('1_JAN_2002','DD_MON_YYYY'),TO_DATE('15_JAN_2001','DD_MON_YYYY'),'  ');
+('4','ROLLING','SLEEPING','1010',TO_DATE('1_JAN_2002','DD_MON_YYYY'),TO_DATE('15_JAN_2001','DD_MON_YYYY'),'  ');
+('5','RUNNING','SLEEPING','1010',TO_DATE('1_JAN_2002','DD_MON_YYYY'),TO_DATE('15_JAN_2001','DD_MON_YYYY'),'  ');
+--------------------------------------------------------------------
+/*-----------------------------------------------
+insert into activity
+(name,type ,place ,organized_by ,start_date ,finish_date )VALUES
+('Tree Plantation 2015','Annual','National Garden','Ministry of Environment & Forests',to_date('10-MAR-2015','dd-mon-yyyy'),to_date('20-MAR-2015','dd-mon-yyyy'));
+insert into activity
+(name,type ,place ,organized_by ,start_date ,finish_date )VALUES
+('Blood Donation 2010','Social work','Dhaka Medical','Shondhani',to_date('02-JAN-2010','dd-mon-yyyy'),to_date('09-JAN-2010','dd-mon-yyyy'));
+insert into activity
+(name,type ,place ,organized_by ,start_date ,finish_date )VALUES
+('Flood Relief 2002','Relief','Nobingor','Natural Disaster Relief ',to_date('22-JUN-2003','dd-mon-yyyy'),to_date('30-JUL-2005','dd-mon-yyyy'));
+insert into activity
+(name,type ,place ,organized_by ,start_date ,finish_date )VALUES
+('Tree Plantation 2016','Annual','National Garden','Ministry of Environment & Forests',to_date('10-MAR-2015','dd-mon-yyyy'),to_date('20-MAR-2015','dd-mon-yyyy'));
+insert into activity
+(name,type ,place ,organized_by ,start_date ,finish_date )VALUES
+('Blood Donation 2010','Social work','Dhaka Medical','Shondhani',to_date('02-JAN-2011','dd-mon-yyyy'),to_date('10-JAN-2009','dd-mon-yyyy'));
+
+*/--------------------------------------
+
+INSERT INTO ACCOUNT
+(ACCOUNT_NUM,ACCOUNT_TYPE,ACCOUNT_OFFICE,
+ACCOUNT_PARPOSE,ACCOUNT_IN AMOUNT,ACCOUNT_OUT AMOUNT ,ACCOUNT_SOURCE ,
+ACCOUNT_DESTINATION ACC,ACCOUNT_BALANCE,ACCOUNT_DATE OF TRANSFER ,ACCOUNT_DETAILS )VALUES
+
+('A_1','saving   ','    ','    ','5000$','1000$','   ','  ','11000$',TO_DATE('11_JAN_2011','DD_MON_YYYY'),'    ');
+('A_2','saving   ','    ','    ','5000$','1000$','   ','  ','11000$',TO_DATE('1_DEC_2008','DD_MON_YYYY'),'    ');
+('A_3','saving   ','    ','    ','5000$','1000$','   ','  ','11000$',TO_DATE('22_FEB_2010','DD_MON_YYYY'),'    ');
+('A_4','saving   ','    ','    ','5000$','1000$','   ','  ','11000$',TO_DATE('5_JAN_2009','DD_MON_YYYY'),'    ');
+('A_5','saving   ','    ','    ','5000$','1000$','   ','  ','11000$',TO_DATE('11_MAY_2012','DD_MON_YYYY'),'    ');

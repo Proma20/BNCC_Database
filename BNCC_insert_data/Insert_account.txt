@@ -1,0 +1,25 @@
+insert into account
+values
+(
+Account_num.NEXTVAL,'regular','dhaka','shopping',250000,2500,9578426496,9578426495,254,to_date('27-Nov-1925','DD-MON-YYYY'),'valo account'
+);
+insert into account
+values
+(
+Account_num.NEXTVAL,'regular','dhaka','shopping',250000,2500,9578426496,9578426495,254,to_date('27-Nov-1925','DD-MON-YYYY'),'valo account'
+);
+insert into account
+values
+(
+Account_num.NEXTVAL,'regular','dhaka','shopping',250000,2500,9578426496,9578426495,254,to_date('27-Nov-1925','DD-MON-YYYY'),'valo account'
+);
+insert into account
+values
+(
+Account_num.NEXTVAL,'regular','dhaka','shopping',250000,2500,9578426496,9578426495,254,to_date('27-Nov-1925','DD-MON-YYYY'),'valo account'
+);
+insert into account
+values
+(
+Account_num.NEXTVAL,'regular','dhaka','shopping',250000,2500,9578426496,9578426495,254,to_date('27-Nov-1925','DD-MON-YYYY'),'valo account'
+);

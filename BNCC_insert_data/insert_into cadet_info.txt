@@ -1,0 +1,40 @@
+
+
+insert into CADET_INFO
+values
+(
+10000000016,
+BNCC_NO .NEXTVAL,to_date('27-Nov-1925','DD-MON-YYYY'),'a','x',to_date('27-Nov-1950','DD-MON-YYYY'),'secondary'
+);
+
+
+insert into CADET_INFO
+values
+(
+10000000017,
+BNCC_NO .NEXTVAL,to_date('27-Nov-1925','DD-MON-YYYY'),'a','x',to_date('27-Nov-1950','DD-MON-YYYY'),'secondary'
+);
+
+
+insert into CADET_INFO
+values
+(
+10000000018,
+BNCC_NO .NEXTVAL,to_date('27-Nov-1925','DD-MON-YYYY'),'a','x',to_date('27-Nov-1950','DD-MON-YYYY'),'secondary'
+);
+
+
+insert into CADET_INFO
+values
+(
+10000000019,
+BNCC_NO .NEXTVAL,to_date('27-Nov-1925','DD-MON-YYYY'),'a','x',to_date('27-Nov-1950','DD-MON-YYYY'),'secondary'
+);
+
+
+insert into CADET_INFO
+values
+(
+10000000020,
+BNCC_NO .NEXTVAL,to_date('27-Nov-1925','DD-MON-YYYY'),'a','x',to_date('27-Nov-1950','DD-MON-YYYY'),'secondary'
+);

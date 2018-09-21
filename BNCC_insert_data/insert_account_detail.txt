@@ -1,0 +1,5 @@
+insert into Account_details
+values
+(
+'NDC',9578426485
+);

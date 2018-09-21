@@ -1,0 +1,12 @@
+Create table Admin
+(
+Service_No number(30),
+Role varchar2(30),
+Type varchar2(30),
+Previlages varchar2(30),
+Supirior varchar2(30),
+Office varchar2(30),
+Date_of_Appointment date,
+CONSTRAINT Service_no_Admin_fk FOREIGN KEY (Service_No) REFERENCES Employee (Service_no) ON DELETE CASCADE
+
+);

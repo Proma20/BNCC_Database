@@ -1,0 +1,25 @@
+create table GOT(
+Case_No number(10),
+Service_No number(30),
+constraint Case_No_GOT_fk foreign key(Case_No) references DISCIPLINE on delete cascade,
+constraint Service_GOT_fk foreign key(Service_No) references Employee on delete cascade 
+);
+
+
+
+Insert into GOT
+values
+(
+1,123456
+);
+
+
+
+Insert into GOT
+values
+(
+2,123457
+);
+
+
+

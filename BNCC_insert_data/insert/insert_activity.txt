@@ -1,0 +1,7 @@
+
+
+insert into activity
+values
+(
+'firing','normal','dhaka','dhaka branch','2month',to_date('27-Nov-1925','DD-MON-YYYY'),to_date('27-dec-1925','DD-MON-YYYY')
+);

@@ -1,0 +1,51 @@
+CREATE SEQUENCE form_no
+INCREMENT BY 1
+START WITH 544651321
+MAXVALUE   999999999
+NOCACHE
+NOCYCLE;
+
+
+
+create table med_info(
+form_no number(50),
+blood_grp varchar2(10),
+weight number,
+height number,
+chest_size varchar2(20),
+eye_sight varchar2(20),
+CONSTRAINT med_info_form_no_pk PRIMARY KEY(form_no)
+);
+
+
+
+
+
+
+
+insert into med_info
+values
+(form_no.NEXTVAL,'A+ve',58,170.80,'Normal','0.0L 0.0R');
+
+
+insert into med_info
+values
+(form_no.NEXTVAL,'B+ve',60,172.12,'Extended','0.05L 0.07R');
+
+
+insert into med_info
+values
+(form_no.NEXTVAL,'AB-ve',62,175.12,'Extended','0.25L 0.25R');
+
+insert into med_info
+values
+(form_no.NEXTVAL,'O-ve',65,170.80,'normal','1.25L 0.25R');
+
+
+insert into med_info
+values
+(form_no.NEXTVAL,'O+ve',58,172.80,'normal','2.25L 3.00R');
+
+
+
+

@@ -1,0 +1,46 @@
+CREATE SEQUENCE Service_no
+INCREMENT BY 1
+START WITH 123456
+MAXVALUE   999999
+NOCACHE
+NOCYCLE;
+
+Create table Employee
+
+
+(
+
+
+Rank varchar2(20),
+
+
+Service_no number(30),
+
+
+Arms_or_Civilian varchar2(30),
+
+
+Post varchar2(20),
+
+
+Joining_Date date,
+
+
+Qualification varchar2(150),
+
+
+Organisation varchar2(30),
+
+NID_or_Birth_Reg_No number(30),
+
+
+Salary Number,
+
+CONSTRAINT Employee_Service_no__pk PRIMARY KEY(Service_no),
+
+CONSTRAINT fk_NID_or_Birth_Reg_No FOREIGN KEY (NID_or_Birth_Reg_No) REFERENCES Personal_Details (NID_or_Birth_Reg_No) ON DELETE CASCADE
+
+,constraint salary_Employee_ck check(Salary>5000)
+
+);
+

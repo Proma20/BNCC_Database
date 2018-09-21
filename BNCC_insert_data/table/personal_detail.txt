@@ -1,0 +1,44 @@
+create type addr as object
+(
+Village varchar2(30),
+Post_Office varchar2(30),
+Police_station varchar2(30),
+House_No varchar2(10),
+District varchar2(30),
+Division varchar2(30)
+);
+
+
+
+CREATE SEQUENCE person_NID
+INCREMENT BY 1
+START WITH 10000000001
+MAXVALUE   99999999999
+NOCACHE
+NOCYCLE;
+
+
+
+
+
+create table Personal_Details
+(
+Name varchar2(30) NOT NULL,
+NID_or_Birth_Reg_No number(30), 
+Nationality varchar2(20),
+Gender varchar2(10),
+Email varchar2(30),
+Religion varchar2(10),
+address addr,
+DOB date,
+CONSTRAINT NID_or_Birth_Reg_No_PK PRIMARY KEY (NID_or_Birth_Reg_No ),
+CONSTRAINT Personal_Details_Email_UK UNIQUE(EMAIL)
+);
+
+
+
+create table Contact_no(
+NID_or_Birth_Reg_No NUMBER(30),
+Contact_number NUMBER,
+CONSTRAINT NID_Contact_no_fk FOREIGN KEY(NID_or_Birth_Reg_No) REFERENCES Personal_Details ON DELETE CASCADE
+);

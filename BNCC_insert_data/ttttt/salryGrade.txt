@@ -1,0 +1,9 @@
+create table salary_Grade
+(
+grade VARCHAR2(20),
+basic VARCHAR2(20),
+year number(20),
+increment  number(20),
+allowers  VARCHAR2(20) 
+);
+

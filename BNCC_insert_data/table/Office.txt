@@ -1,0 +1,8 @@
+create table OFFICE
+(
+Wing varchar2(8),
+Regt_Sqn_Flotilla varchar2(20),
+Institute varchar2(30) not null,
+Battalion varchar2(30),
+CONSTRAINT OFFICE_Institute_pk PRIMARY KEY (Institute)
+);

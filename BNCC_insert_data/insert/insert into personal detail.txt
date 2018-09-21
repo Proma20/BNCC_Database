@@ -1,0 +1,265 @@
+INSERT INTO Personal_Details 
+values
+(
+'MD. Mahbub Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'mahbub@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','47/A','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+INSERT INTO Personal_Details 
+values
+(
+'MD. Rizvee Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'rizveez@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','47/B','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Mursalin Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'mursalin@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','47/C','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Faruq Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'faruq@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','47/D','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Moin Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'moin@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','47/E','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Riaz Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'riaz@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','48/A','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Saifullah Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'saifullah@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','48/B','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Shams Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'shams@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','48/C','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Fahim Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'fahim@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','48/D','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'MD. Anik Islam',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Male',
+'Anik@gmail.com',
+'Islam',
+addr('kakonbari','kakonbari','kakonbari','48/E','sherpur','Dhaka'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'Shadia Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'shadia@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','95/A','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Shaila Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'Shaila@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','95/B','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Tanisha Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'Tanisha@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','95/C','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Ema Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'Ema@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','95/D','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Monika Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'monika@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','95/E','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+INSERT INTO Personal_Details 
+values
+(
+'Shaira Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'Shaira@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','96/A','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+INSERT INTO Personal_Details 
+values
+(
+'Zarin Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'Zarin@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','96/B','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+INSERT INTO Personal_Details 
+values
+(
+'Diya Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'diya@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','96/C','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Mila Ahmed ',
+PERSON_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'mila@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','96/D','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+
+
+INSERT INTO Personal_Details 
+values
+(
+'Tasnia Ahmed ',
+PERSO_NID.NEXTVAL,
+'Bangladeshi',
+'Female',
+'tsnia@gmail.com',
+'Islam',
+addr('Ratargul','Ratargul','Ratargul','96/E','Moulovhibazar','Shylet'),
+to_date('27-Nov-1925','DD-MON-YYYY')
+);
+
+

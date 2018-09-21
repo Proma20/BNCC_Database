@@ -1,0 +1,24 @@
+insert into platoon_commander
+values
+(10000000011,'ZS19',to_date('05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),platoon_NO.NEXTVAL);
+
+
+insert into platoon_commander
+values
+(10000000012,'ZS20',to_date('05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),platoon_NO.NEXTVAL);
+
+
+insert into platoon_commander
+values
+(10000000013,'ZS21',to_date('05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),platoon_NO.NEXTVAL);
+
+
+insert into platoon_commander
+values
+(10000000014,'ZS22',to_date('05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),platoon_NO.NEXTVAL);
+
+
+insert into platoon_commander
+values
+(10000000015,'ZS23',to_date('05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),platoon_NO.NEXTVAL);
+

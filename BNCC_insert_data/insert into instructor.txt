@@ -1,0 +1,14 @@
+Insert into  Instructor
+values(123456,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'));
+
+Insert into  Instructor
+values(123457,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'));
+
+Insert into  Instructor
+values(123458,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'));
+
+Insert into  Instructor
+values(123459,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'));
+
+Insert into  Instructor
+values(1234510,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'));

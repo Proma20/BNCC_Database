@@ -1,0 +1,28 @@
+create table Studies_at(
+BNCC_NO number(20),
+student_id number not null,
+class varchar2(20),
+dept varchar2(20),
+ins_name varchar2(50) not null,
+constraint BNCC_NO_Studies_at_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint inst_Now_at_fk foreign key(student_id,class,dept,ins_name) references institutions  on delete cascade 
+);
+
+insert into Studies_at VALUES
+
+(
+'10000000001',11,'9','science','Government Boys School'
+);
+
+
+insert into Studies_at VALUES
+
+(
+'10000000003',134501,'1st year','Statistics','Rajshahi University'
+);
+
+insert into Studies_at VALUES
+
+(
+'10000000002',8,'13','','mist'
+);

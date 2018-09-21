@@ -1,0 +1,6 @@
+
+
+insert into activity
+ values(
+'blood donation','normal','dhaka','dhaka branch','2month',to_date('12-jan-2017','DD-MON-YYYY'),to_date('12-mar-2017','DD-MON-YYYY')
+);

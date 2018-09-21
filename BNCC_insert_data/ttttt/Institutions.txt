@@ -1,0 +1,34 @@
+CREATE SEQUENCE student_id number
+INCREMENT BY 1
+START WITH 201514001
+MAXVALUE   999999999
+NOCACHE
+NOCYCLE;
+
+
+create table institutions(
+student_id number not null,
+class varchar2(20),
+dept varchar2(20),
+ins_name varchar2(50) not null,
+Academic_year number,
+CONSTRAINT institutions_student_id_pk PRIMARY KEY(student_id,class,dept,ins_name)
+);
+
+
+
+///student_id number.NEXTVAL
+
+insert into institutions
+values
+(
+student_id number.NEXTVAL,'12','science','notordame',2014
+
+);
+
+insert into institutions
+values
+(
+student_id number.NEXTVAL,'11','commarce','G.science scl',2014
+
+);

@@ -1,0 +1,20 @@
+create table Is_in(
+Institute varchar2(30),
+platoon_NO number(20),
+constraint Institute_IS_in_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint platoon_NO _IS_in_fk foreign key(platoon_NO  references platoon_commander on delete cascade 
+);
+
+
+
+Insert into Is_in
+values
+(
+'G.lab',56154849
+);
+
+Insert into Is_in
+values
+(
+'rifels',56154850
+);

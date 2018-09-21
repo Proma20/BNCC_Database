@@ -1,0 +1,18 @@
+create table Received(
+BNCC_NO number(20),
+Case_No number(10),
+constraint BNCC_NO_Received_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint Case_No_Received_fk foreign key(Case_No) references DISCIPLINE  on delete cascade 
+);
+
+insert into Received
+values
+(
+'10000000001',3
+);
+
+insert into Received
+values
+(
+'10000000004',4
+);

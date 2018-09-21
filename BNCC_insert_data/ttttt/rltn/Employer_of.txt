@@ -1,0 +1,27 @@
+create table Employer_of(
+Institute varchar2(30),
+Service_No number(30),
+constraint Institute_employer_of_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint Service_No_employer_of_fk foreign key(Service_No) references Employee on delete cascade 
+);
+
+
+
+
+Insert into Employer_of
+values
+(
+ 'NDC', 123466
+);
+
+Insert into Employer_of
+values
+(
+ 'D.boys', 123467
+);
+
+Insert into Employer_of
+values
+(
+ 'st.josef', 123468
+);

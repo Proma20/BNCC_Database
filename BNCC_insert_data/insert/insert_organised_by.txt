@@ -1,0 +1,7 @@
+
+
+insert into Organized_by
+values
+(
+'NDC','firing'
+);

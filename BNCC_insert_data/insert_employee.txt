@@ -1,0 +1,61 @@
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000001,15000
+);
+
+INSERT into Employee
+ values
+(
+'major',Service_no.NEXTVAL,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000002,15000
+);
+
+INSERT into Employee
+ values
+(
+'major',Service_no.NEXTVAL,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000003,15000
+);
+
+INSERT into Employee
+ values
+(
+'major',Service_no.NEXTVAL,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000004,15000
+);
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000005,15000
+);
+
+
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','admin',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000006,15000
+);
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','admin',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000007,15000
+);
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','admin',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000008,15000
+);
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','admin',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000009,15000
+);
+
+INSERT into Employee 
+values
+(
+'major',Service_no.NEXTVAL,'arms','admin',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military',10000000010,15000
+);

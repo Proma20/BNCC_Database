@@ -1,0 +1,21 @@
+create table vacation(
+Service_no number(30),
+name varchar2(20),
+start_date date,
+finish_date date,
+constraint Service_no_vacation_fk foreign key(Service_no) references Employee on delete cascade,
+constraint srvc_date_vacation_pk primary key(Service_no,start_date) 
+);
+
+
+insert into vacation
+values
+(
+123456,'Eid-ul-fitr',to_date('3-apr-2016','DD-MON-YYYY'),to_date('5-apr-2016','DD-MON-YYYY')
+);
+
+insert into vacation
+values
+(
+123458,'Eid-ul-azha',to_date('3-apr-2017','DD-MON-YYYY'),to_date('5-apr-2017','DD-MON-YYYY')
+);

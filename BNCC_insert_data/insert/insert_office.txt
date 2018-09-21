@@ -1,0 +1,30 @@
+
+insert into Office
+values
+(
+'a','regi','NDC','p'
+);
+
+insert into Office
+values
+(
+'b','regi','D.boys','p'
+);
+
+insert into Office
+values
+(
+'b','regi','st.josef','p'
+);
+
+insert into Office
+values
+(
+'a','regi','G.lab','p'
+);
+
+insert into Office
+values
+(
+'c','regi','rifels','p'
+);

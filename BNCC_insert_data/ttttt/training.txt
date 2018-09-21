@@ -1,0 +1,41 @@
+create table training(
+name varchar2(50),
+type varc har2(20),
+start_date date,
+finish_date date,
+result varchar2(50),
+location varchar2(20),
+
+CONSTRAINT training_name_pk PRIMARY KEY(name)
+
+
+);
+
+
+insert into training (
+name ,
+type,
+start_date ,
+finish_date ,
+result ,
+location )
+values
+(
+'firing','military',
+to_date('27-Nov-2015','DD-MON-YYYY'),
+to_date('28-nov-2015','DD-MON-YYYY'),'3/5','dhaka'
+);
+
+insert into training(
+name ,
+type,
+start_date ,
+finish_date ,
+result ,
+location )
+values
+(
+'Annual','military',
+to_date('27-Nov-2016','DD-MON-YYYY'),
+to_date('28-dec-2016','DD-MON-YYYY'),'good','gazipur'
+);
