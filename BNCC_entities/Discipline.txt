@@ -1,0 +1,17 @@
+create table DISCIPLINE
+(
+Case_No VARCHAR2(10) ,
+Punishment	VARCHAR2(500),
+Cause VARCHAR2(1000),
+Penal_Code VARCHAR2(50),
+Date_Of_Offence	date,
+Date_Of_Punishment	date,
+Verdict_By VARCHAR2(30),
+
+CONSTRAINT DISCIPLINE_Case_No_pk PRIMARY KEY (Case_No)
+); //created
+
+
+insert into DISCIPLINE (Case_No, Punishment, Cause, Penal_Code, Date_Of_Offence, Date_Of_Punishment, Verdict_By)
+ VALUES 
+(

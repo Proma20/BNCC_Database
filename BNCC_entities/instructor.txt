@@ -1,0 +1,26 @@
+
+
+
+
+Create table Instructor
+(
+Service_No number(30),
+Appointment varchar2(20),
+Qualification varchar2(150),
+Rank varchar2(20),
+Joining_Date date,
+Last_Date date,
+CONSTRAINT Instructor_CC_No__pk PRIMARY KEY(Service_No),
+CONSTRAINT Service_no_Instructor_fk FOREIGN KEY (Service_No) REFERENCES Employee (Service_no) ON DELETE CASCADE
+);//created
+
+
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1934','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),151863834664);
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1933','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),15186383466);
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1932','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),15186383467);
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1931','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),15186383468);
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1930','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),151863834669);
+Insert into  Instructor(CC_No,Appointment ,Qualification,Rank ,Joining_Date ,Last_Date ,NID_or_Birth_Reg_No)values(112233,'platoon commander','gold medelist in honors at economics','Major',to_date('7-Sep-1929','DD-MON-YYYY'),to_date('7-Sep-1935','DD-MON-YYYY'),151863834677);
+
+
+

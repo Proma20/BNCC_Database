@@ -1,0 +1,9 @@
+create type addr as object
+(
+Village varchar2(30),
+Post_Office varchar2(30),
+Police_station varchar2(30),
+House_No varchar2(10),
+District varchar2(30),
+Division varchar2(30)
+);//created

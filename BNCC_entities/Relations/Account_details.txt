@@ -1,0 +1,6 @@
+create table Account_details(
+Institute varchar2(30),
+ACCOUNT_NUM VARCHAR2(15),
+constraint Institute_Account_details_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint ACCOUNT_NUM_Account_details_fk foreign key(ACCOUNT_NUM) references Account  on delete cascade 
+);//created

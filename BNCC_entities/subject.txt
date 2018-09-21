@@ -1,0 +1,8 @@
+create table subject(
+name varchar2(20),
+subject_code  varchar2(20),
+type varchar2(20),
+duration number,
+syllabus varchar2(20),
+CONSTRAINT subject_subject_code_pk PRIMARY KEY(subject_code)
+);//created

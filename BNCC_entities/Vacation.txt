@@ -1,0 +1,8 @@
+create table vacation(
+Service_no number(30),
+name varchar2(20),
+start_date date,
+finish_date date,
+constraint Service_no_vacation_fk foreign key(Service_no) references Employee on delete cascade,
+constraint srvc_date_vacation_pk primary key(Service_no,start_date) 
+);//created

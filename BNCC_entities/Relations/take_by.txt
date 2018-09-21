@@ -1,0 +1,6 @@
+create table taken_by(
+Service_no number(30),
+subject_code  varchar2(20),
+Constraint Service_no_taken_by_fk foreign key(Service_no) references Instructor on delete cascade, 
+Constraint subject_code_taken_by_fk foreign key(subject_code) references subject on delete cascade
+);//created

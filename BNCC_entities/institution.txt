@@ -1,0 +1,30 @@
+create table institutions(
+student_id number not null,
+class varchar2(20),
+dept varchar2(20),
+ins_name varchar2(50) not null,
+Academic_year number,
+CONSTRAINT institutions_student_id_pk PRIMARY KEY(student_id,class,dept,ins_name)
+);//created
+
+insert into institutions
+values
+(11,'9','Science','Government Boys School',1005,'Shadar','Rangpur');
+
+
+insert into institutions
+values
+(134501,'1st year','Statistics','Rajshahi University',807,'Kajla','Rajshahi');
+
+
+insert into institutions
+values
+(201514009,'2nd semester','Geology','Dhaka University',1203,'Shahbag','Dhaka');
+
+insert into institutions
+values
+(13,'12','Science','Degree College',903,'Rupnagar','Barisal');
+
+insert into institutions
+values
+(01,'7',' ','Government Model School',1203,'Mohammadpur','Dhaka');

@@ -1,0 +1,6 @@
+create table Organized_by(
+Institute varchar2(30),
+name varchar2(100),
+constraint Institute_Organized_by_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint name_Organized_by_fk foreign key(name) references Activity on delete cascade 
+);//created

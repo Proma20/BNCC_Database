@@ -1,0 +1,138 @@
+CREATE TABLE PERSONAL_DETAILS
+(
+NAME VARCHAR2(30) NOT NULL,
+NID_OR_BIRTH_REG_NO NUMBER(30), 
+MOBILE_NO VARCHAR2(11),
+NATIONALITY VARCHAR2(20),
+GENDER VARCHAR2(10),
+EMAIL VARCHAR2(30),
+RELIGION VARCHAR2(10),
+ADDRESS ADDR,
+DOB DATE
+CONSTRAINT NID_OR_BIRTH_REG_NO_PK PRIMARY KEY (NID_OR_BIRTH_REG_NO ),
+CONSTRAINT PERSONAL_DETAILS_EMAIL_UK UNIQUE(EMAIL)
+); // created
+
+
+
+INSERT into Personal_Details
+(
+Name,
+NID_or_Birth_Reg_No ,
+Mobile_No,
+Nationality,
+Gender,
+ 
+ EMAIL,
+Religion,
+ADDRESS,
+DOB
+)
+values
+(
+'MD. Imtiz Islam',
+151863834664,
+01710889910,
+'Bangladeshi',
+'Male',
+'Imtiaz@gmail.com',
+'Islam',
+addr('akashpur','kakonbari',
+'kakonbari',
+'47/A',
+'sherpur',
+'Dhaka')
+to date("23-12-1990", "dd-mm-yyyy")
+
+);
+INSERT into Personal_Details
+(
+Name,NID_or_Birth_Reg_No ,Mobile_No,Nationality,Gender, EMAIL,Religion,Village,Post_Office,Police_station,House_No,District ,Division
+)
+values
+(
+'MD. Ismail Islam',
+15186383466,
+01710889911,
+'Bangladeshi',
+'Male',
+'Ismail@gmail.com',
+'Islam',
+'sahinpur','kakonbari',
+'kakonbari',
+'48/A',
+'sherpur',
+'Dhaka');
+INSERT into Personal_Details
+(
+Name,NID_or_Birth_Reg_No ,Mobile_No,Nationality,Gender, EMAIL,Religion,Village,Post_Office,Police_station,House_No,District ,Division
+)
+values
+(
+'MD. Faisal Islam',
+15186383467,
+01710889912,
+'Bangladeshi',
+'Male',
+'Faisal@gmail.com',
+'Islam','
+sokhipur','Shukhonpur',
+'Shukhonpur',
+'48/A',
+'Jamalpur',
+'Dhaka');
+INSERT into Personal_Details
+(
+Name,NID_or_Birth_Reg_No ,Mobile_No,Nationality,Gender, EMAIL,Religion,Village,Post_Office,Police_station,House_No,District ,Division
+)
+values
+(
+'MD. Naim Islam',
+15186383468,
+01710889913,
+'Bangladeshi',
+'Male',
+'Naim@gmail.com',
+'Islam','bochagonj',
+'Ruppur',
+'Nilgonj',
+'48/A',
+'Jamalpur',
+'Dhaka');
+INSERT into Personal_Details
+(
+Name,NID_or_Birth_Reg_No ,Mobile_No,Nationality,Gender, EMAIL,Religion,Village,Post_Office,Police_station,House_No,District ,Division
+)
+values
+(
+'MD. Sayed Islam',
+15186383469,
+01710889969,
+'Bangladeshi',
+'Male',
+'Sayed@gmail.com',
+'Islam','taherpur',
+'Ruppur',
+'Nilgonj',
+'49/A',
+'Jamalpur',
+'Dhaka');
+INSERT into Personal_Details
+(
+Name,NID_or_Birth_Reg_No ,Mobile_No,Nationality,Gender, EMAIL,Religion,Village,Post_Office,Police_station,House_No,District ,Division
+)
+values
+(
+'MD. Ishmam Islam',
+15186383477,
+01710889977,
+'Bangladeshi',
+'Male',
+'Ishmamd@gmail.com',
+'Islam',
+'akkelpur','Masakhola',
+'Masakhola',
+'49/A',
+'Bikrompur',
+'Dhaka');
+

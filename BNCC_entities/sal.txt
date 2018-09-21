@@ -1,0 +1,21 @@
+
+create table salary_grade(
+grade VARCHAR2(20),
+hisal number,
+lowsal number,
+CONSTRAINT salary_grade_grade_pk PRIMARY KEY(grade)
+);//created
+
+insert into salary_grade
+values
+(1,10000,2,20);
+
+
+insert into salary_grade
+values
+(2,20000,4,10);
+
+
+insert into salary_grade
+values
+(3,30000,3,25);

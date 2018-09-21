@@ -1,0 +1,18 @@
+create table activity(
+name varchar2(100),
+type varchar2(20),
+place varchar2(20),
+organized_by varchar2(100),
+start_date date,
+finish_date date,
+CONSTRAINT activity_name_pk PRIMARY KEY(name)
+);//created
+
+insert into activity(name, type, place, organized_by, start_date, finish_date)
+values('Tree Plantation 2015','Annual','National Garden','Ministry of Environment & Forests',to_date('10-MAR-2015','dd-mon-yyyy'),to_date('20-MAR-2015','dd-mon-yyyy'));
+
+insert into activity(name, type, place, organized_by, start_date, finish_date)
+values('Blood Donation 2010','Social work','Dhaka Medical','Shondhani',to_date('02-JAN-2010','dd-mon-yyyy'),to_date('09-JAN-2010','dd-mon-yyyy'));
+
+insert into activity(name, type, place, organized_by, start_date, finish_date)
+values('Flood Relief 2002','Relief','Nobingor','Natural Disaster Relief ',to_date('20-JUL-2002','dd-mon-yyyy'),to_date('30-JUL-2002','dd-mon-yyyy'));

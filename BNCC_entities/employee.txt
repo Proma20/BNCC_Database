@@ -1,0 +1,102 @@
+Create table Employee
+(
+Rank varchar2(20),
+Service_no number(30),
+Arms_or_Civilian varchar2(30),
+Post varchar2(20),
+Joining_Date date,
+Qualification varchar2(150),
+Organisation varchar2(30),
+NID_or_Birth_Reg_No number(30),
+Salary Number,
+CONSTRAINT Employee_Service_no__pk PRIMARY KEY(Service_no),
+CONSTRAINT fk_NID_or_Birth_Reg_No FOREIGN KEY (NID_or_Birth_Reg_No) REFERENCES Personal_Details (NID_or_Birth_Reg_No) ON DELETE CASCADE,
+constraint salary_Employee_ck check(Salary>5000)
+);//created
+
+INSERT into Employee(Rank ,Service_no ,Arms_or_Civilian ,Post ,Joining_Date ,Qualification,Organisation,NID_or_Birth_Reg_No )values('major',123456,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in physics','military','
+151863834664');
+INSERT into Employee
+(
+Rank ,
+Service_no ,
+Arms_or_Civilian ,
+Post ,
+Joining_Date ,
+Qualification,
+Organisation,
+NID_or_Birth_Reg_No 
+)
+
+values
+(
+'major',123451,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in chemistry','military','15186383466'
+);
+INSERT into Employee
+(
+Rank ,
+Service_no ,
+Arms_or_Civilian ,
+Post ,
+Joining_Date ,
+Qualification,
+Organisation,
+NID_or_Birth_Reg_No 
+)
+
+values
+(
+'major',123452,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in physics','military','
+15186383467'
+);
+INSERT into Employee
+(
+Rank ,
+Service_no ,
+Arms_or_Civilian ,
+Post ,
+Joining_Date ,
+Qualification,
+Organisation,
+NID_or_Birth_Reg_No 
+)
+
+values
+(
+'major',123453,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in physics','military','
+15186383468'
+);
+INSERT into Employee
+(
+Rank ,
+Service_no ,
+Arms_or_Civilian ,
+Post ,
+Joining_Date ,
+Qualification,
+Organisation,
+NID_or_Birth_Reg_No 
+)
+
+values
+(
+'major',123454,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in physics','military','
+15186383469'
+);
+INSERT into Employee
+(
+Rank ,
+Service_no ,
+Arms_or_Civilian ,
+Post ,
+Joining_Date ,
+Qualification,
+Organisation,
+NID_or_Birth_Reg_No 
+)
+
+values
+(
+'major',123455,'arms','instructor',to_date('3-MAR-2016','DD-MON-YYYY'),'phd in physics','military','15186383477'
+);
+

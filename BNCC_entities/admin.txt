@@ -1,0 +1,15 @@
+
+
+Create table Admin
+(
+
+Service_no number(30),
+Role varchar2(30),
+Type varchar2(30),
+Previlages varchar2(30),
+Supirior varchar2(30),
+Office varchar2(30),
+Date_of_Appointment date,
+Constraint Service_no_Admin_pk primary key(Service_no) ,
+Constraint Service_no_Admin_fk foreign key(Service_no) references Employee on delete cascade 
+);//created

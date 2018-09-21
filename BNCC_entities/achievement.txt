@@ -1,0 +1,13 @@
+create table ACHIEVEMENT
+(
+Name_Of_Achievement varchar2(30) not null,
+BNCC_NO VARCHAR2(20),
+Reason_Of_Achievement varchar2(30),
+Type_Of_Achievement varchar2(30),
+Date_of_Achievement varchar2(30),
+place varchar2(20),
+country varchar2(20),
+CONSTRAINT ACHEIVEMENT_NOABNCC_PK PRIMARY KEY(Name_Of_Achievement,BNCC_NO),
+CONSTRAINT ACHEIVEMENT_NOABNCC_FK FOREIGN KEY(BNCC_NO) REFERENCES CADET_INFO ON DELETE CASCADE
+
+);//created

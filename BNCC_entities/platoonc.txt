@@ -1,0 +1,32 @@
+create table platoon_commander(
+NID_or_Birth_Reg_No number not null,
+p_no varchar2(20),
+joining_date DATE,
+dop date,
+platoon_NO number,
+CONSTRAINT platoon_commander_p_no__pk PRIMARY KEY(p_no),
+CONSTRAINT fk_NID_platoon_commander FOREIGN KEY (NID_or_Birth_Reg_No) REFERENCES Personal_Details (NID_or_Birth_Reg_No) ON DELETE CASCADE
+);//created
+
+insert into platoon_commander
+values
+(15186383466,'AB12',to_date('11-JAN-2015','dd-mon-yyyy'),to_date('12-FEB-2016','dd-mon-yyyy'),12);
+
+insert into platoon_commander
+values
+(15186383467,'AC13',to_date('13-MAR-2014','dd-mon-yyyy'),to_date('10-FEB-2016','dd-mon-yyyy'),1);
+
+insert into platoon_commander
+values
+(15186383468,'dB11',to_date('11-DEC-2010','dd-mon-yyyy'),to_date('01-sep-2015','dd-mon-yyyy'),2);
+
+insert into platoon_commander
+values
+(15186383469,'PR19',to_date(
+'20-JAN-2012','dd-mon-yyyy'),to_date('09-AUG-2016','dd-mon-yyyy'),9);
+
+insert into platoon_commander
+values
+(15186383477,'ZS19',to_date(
+'05-JAN-2013','dd-mon-yyyy'),to_date('01-APR-2015','dd-mon-yyyy'),5);
+

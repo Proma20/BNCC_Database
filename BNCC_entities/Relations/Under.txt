@@ -1,0 +1,9 @@
+create table Under(
+student_id number not null,
+class varchar2(20),
+dept varchar2(20),
+ins_name varchar2(50) not null,
+Institute varchar2(30),
+constraint Institute_Under_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint ins_Under_fk foreign key(student_id,class,dept,ins_name) references institutions on delete cascade 
+);//created

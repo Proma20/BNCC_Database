@@ -1,0 +1,6 @@
+create table Health(
+BNCC_NO VARCHAR2(20),
+form_no varchar2(50),
+constraint BNCC_NO_Health_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint form_no_Health_fk foreign key(form_no) references med_info on delete cascade 
+);//created

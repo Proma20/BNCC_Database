@@ -1,0 +1,11 @@
+create table training(
+name varchar2(50),
+type varchar2(20),
+start_date date,
+finish_date date,
+result varchar2(50),
+location varchar2(20),
+duration as (finish_date-start_date),  //virtual
+CONSTRAINT training_name_pk PRIMARY KEY(name)
+
+);//created

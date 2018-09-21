@@ -1,0 +1,6 @@
+create table Care_of(
+BNCC_NO VARCHAR2(20),
+G_NID VARCHAR2(15),
+constraint BNCC_NO_Care_of_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint G_NID_Care_of_fk foreign key(G_NID) references GUARDIAN on delete cascade 
+);//created

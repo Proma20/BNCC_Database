@@ -1,0 +1,5 @@
+create table Contact_no(
+NID_or_Birth_Reg_No NUMBER(30),
+Contact_number NUMBER,
+CONSTRAINT NID_Contact_no_fk FOREIGN KEY(NID_or_Birth_Reg_No) REFERENCES Personal_Details ON DELETE CASCADE
+);//created

@@ -1,0 +1,3 @@
+CREATE VIEW Cadet_VIEW ("Cadet_id", "Name", "Date of Birth","Age","Enrollment Date","Rank","Wing") AS
+Select BNCC_NO,Name,DOB,sysdate-DOB,ENROLLMENT_DATE,RANK,WING
+from Personal_Details natural join CADET_INFO natural join studies_at natural join institutions natural join under natural join office,DUAL where Regt_Sqn_Flotilla='Mohasthan';

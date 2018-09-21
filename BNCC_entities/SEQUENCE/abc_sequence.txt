@@ -1,0 +1,5 @@
+abc_sequence     start_val      max_val
+ BNCC_NO          10001          99999
+ Item_code        110000         999999
+ Form_no          11100000       9999999
+ subject_code     111100000      99999999  

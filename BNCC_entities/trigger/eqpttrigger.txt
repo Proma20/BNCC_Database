@@ -1,0 +1,12 @@
+create or replace trigger INSET_EQP_TRIGGER 
+BEFORE
+insert on EQUIPMENT 
+for each row
+begin
+declare
+  item_id number;
+begin
+select ITEM_CODE_SEQ.nextval into item_id from dual;
+:new.ITEM_CODE := item_id;
+end;
+end;

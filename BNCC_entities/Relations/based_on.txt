@@ -1,0 +1,6 @@
+create table based_on(
+subject_code varchar2(20),
+name varchar2(50),
+constraint subject_code_on_fk foreign key(subject_code) references subject on delete cascade,
+constraint name_on_fk foreign key(name) references training on delete cascade 
+);//created

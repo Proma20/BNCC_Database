@@ -1,0 +1,6 @@
+create table Attended(
+BNCC_NO VARCHAR2(20),
+name varchar2(50),
+constraint BNCC_NO_Attended_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint name_Attended_fk foreign key(name) references training on delete cascade 
+);//created

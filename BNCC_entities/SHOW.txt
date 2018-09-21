@@ -1,0 +1,39 @@
+INSERT into Personal_Details
+(
+Name,
+NID_or_Birth_Reg_No ,
+Mobile_No,
+Nationality,
+Gender,
+E_Mail_ID,
+Religion,Village,
+Post_Office ,
+Police_station,
+House_No,
+District ,
+Division
+
+)
+
+values
+(
+'MD.ishmam rahman',
+128383837373,
+01710374684,
+'Bangladeshi',
+'Male',
+'aosjdj@gmail.com',
+'Islam',
+'ckksdknilpur',
+'kaodposdkonbari',
+'kakonbadsri',
+'509/A',
+'gulidkskfsdktan',
+'CTG'
+
+)
+
+delete from Personal_Details where Mobile_No=1710889977
+
+
+update Personal_Details set Mobile_No=01717345620 where NID_or_Birth_Reg_No=151863897600

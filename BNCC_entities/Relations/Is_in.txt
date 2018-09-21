@@ -1,0 +1,6 @@
+create table Is_in(
+Institute varchar2(30),
+p_no varchar2(20),
+constraint Institute_IS_in_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint p_no_IS_in_fk foreign key(p_no) references platoon_commander on delete cascade 
+);//created

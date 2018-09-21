@@ -1,0 +1,6 @@
+create table Now_at(
+BNCC_NO VARCHAR2(20),
+SERVICE_ID VARCHAR2(15),
+constraint BNCC_NO_Now_at_fk foreign key(BNCC_NO) references CADET_INFO on delete cascade,
+constraint SERVICE_ID_Now_at_fk foreign key(SERVICE_ID) references PRESENT_STATE on delete cascade 
+);//created

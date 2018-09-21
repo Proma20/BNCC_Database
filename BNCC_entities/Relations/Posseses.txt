@@ -1,0 +1,6 @@
+create table Posseses(
+Institute varchar2(30),
+ITEM_CODE VARCHAR2 (15),
+constraint Institute_Posseses_fk foreign key(Institute) references OFFICE on delete cascade,
+constraint ITEM_CODE_Posseses_fk foreign key(ITEM_CODE) references EQUIPMENT  on delete cascade 
+);//created

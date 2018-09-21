@@ -1,0 +1,37 @@
+create table med_info(
+form_no varchar2(50),
+blood_grp varchar2(10),
+weight number,
+height number,
+chest_size varchar2(20),
+eye_sight varchar2(20),
+CONSTRAINT med_info_form_no_pk PRIMARY KEY(form_no)
+);//created
+
+insert into med_info
+values
+('M01','A+ve',58,170.80,'Normal','0.0L 0.0R');
+
+
+insert into med_info
+values
+('M02','B+ve',60,172.12,'Extended','0.05L 0.07R');
+
+
+insert into med_info
+values
+('M03','AB-ve',62,175.12,'Extended','0.25L 0.25R');
+
+insert into med_info
+values
+('M04','O-ve',65,170.80,'normal','1.25L 0.25R');
+
+
+insert into med_info
+values
+('M05','O+ve',58,172.80,'normal','2.25L 3.00R');
+
+
+
+
+

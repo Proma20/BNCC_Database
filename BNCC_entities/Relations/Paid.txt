@@ -1,0 +1,6 @@
+create table PAID(
+grade VARCHAR2(20),
+Service_No number(30),
+constraint grad_PAID_fk foreign key(grade) references salary_grade on delete cascade,
+constraint Service_PAID_fk foreign key(Service_No) references Employee on delete cascade 
+);//created
